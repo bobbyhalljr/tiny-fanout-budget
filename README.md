@@ -42,15 +42,15 @@ npx tsc --noEmit
 phase: Read the contracts (300 x sonnet-class)
 phase: Reconcile the findings (1 x sonnet-class)
 merge: 43 of 300 contracts auto-renew (first: contract-004, contract-011, contract-018)
-workers 301 | peak concurrent 300 | tokens 1,746,500 | refusals 0
-spent $4.729 of $1.000 intended -> OVER by $3.729
+workers 301 | peak 300 | tokens 1,746,500 | refusals 0
+spent $4.729 of $1.000 -> OVER by $3.729
 
 === B. capped fan-out, cheap readers ===
 phase: Read the contracts (300 x haiku-class)
 phase: Reconcile the findings (1 x sonnet-class)
 merge: 43 of 300 contracts auto-renew (first: contract-004, contract-011, contract-018)
-workers 301 | peak concurrent 16 | tokens 1,746,500 | refusals 0
-spent $0.369 of $1.000 intended -> under budget
+workers 301 | peak 16 | tokens 1,746,500 | refusals 0
+spent $0.369 of $1.000 -> under budget
 
 === C. tight budget, refuse then downgrade ===
 phase: Read the contracts (300 x haiku-class)
@@ -58,8 +58,8 @@ phase: Reconcile the findings (1 x sonnet-class)
   refused: needs $0.139, only $0.070 left
   lead: retry reconcile on haiku-class
 merge: 43 of 300 contracts auto-renew (first: contract-004, contract-011, contract-018)
-workers 301 | peak concurrent 16 | tokens 1,746,500 | refusals 1
-spent $0.236 of $0.300 intended -> under budget
+workers 301 | peak 16 | tokens 1,746,500 | refusals 1
+spent $0.236 of $0.300 -> under budget
 ```
 
 ## Honesty notes
