@@ -78,4 +78,7 @@ spent $0.236 of $0.300 -> under budget
 
 MIT
 
-Full write-up on Dev.to: https://dev.to/bobbyhalljr/anthropic-launched-dynamic-workflows-lets-build-a-tiny-fan-out-budget-in-typescript-af6
+## Write-up
+
+- Dev.to: https://dev.to/bobbyhalljr/anthropic-launched-dynamic-workflows-lets-build-a-tiny-fan-out-budget-in-typescript-af6
+- Substack: https://bobbyhalljr.substack.com/p/anthropic-launched-dynamic-workflows
