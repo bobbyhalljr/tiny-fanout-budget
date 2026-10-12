@@ -77,3 +77,5 @@ spent $0.236 of $0.300 -> under budget
 ## License
 
 MIT
+
+Full write-up on Dev.to: https://dev.to/bobbyhalljr/anthropic-launched-dynamic-workflows-lets-build-a-tiny-fan-out-budget-in-typescript-af6
